@@ -4,9 +4,6 @@ on:
     workflows: ["刷步数"]
     types:
       - completed
-      
-permissions:
-  contents: write
   
 jobs:
   repo-sync:
